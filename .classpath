@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-codec-1.2.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-logging-1.0.3.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/gexin-rp-sdk-base-4.0.0.3.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/gexin-rp-sdk-http-4.0.1.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/gexin-rp-sdk-template-4.0.0.3.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jackson-all-1.8.5.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/protobuf-java-2.5.0.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
