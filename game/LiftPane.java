@@ -19,7 +19,11 @@ import java.util.Random;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.Timer;
- 
+ /**
+  * 
+  * @author liyc
+  *
+  */
 public class LiftPane extends JPanel implements KeyListener {
  
     private GameView gameView;
