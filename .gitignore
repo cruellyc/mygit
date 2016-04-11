@@ -14,3 +14,6 @@
 /queryUserCount.class
 /stopTask.class
 /testSetTagList.class
+/ExcelUtil.class
+/OrderProperties$LineReader.class
+/OrderProperties.class

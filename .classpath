@@ -10,5 +10,12 @@
 	<classpathentry kind="lib" path="WEB-INF/lib/gexin-rp-sdk-template-4.0.0.3.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/jackson-all-1.8.5.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/protobuf-java-2.5.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jxl-2.6.12.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/mongo-java-driver-2.14.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/mongodb-driver-3.2.2.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/poi-3.11.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/poi-ooxml-3.9.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
