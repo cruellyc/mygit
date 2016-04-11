@@ -17,3 +17,9 @@
 /ExcelUtil.class
 /OrderProperties$LineReader.class
 /OrderProperties.class
+/DeptNoEnum.class
+/EmailUtil.class
+/JFreeChartUtil.class
+/MailSenderInfo.class
+/MyAuthenticator.class
+/NumberFormat.class

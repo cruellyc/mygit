@@ -16,6 +16,9 @@
 	<classpathentry kind="lib" path="WEB-INF/lib/poi-3.11.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/poi-ooxml-3.9.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jcommon-1.0.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jfreechart-1.0.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/mail-1.4.7.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
