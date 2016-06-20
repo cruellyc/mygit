@@ -13,12 +13,21 @@
 	<classpathentry kind="lib" path="WEB-INF/lib/jxl-2.6.12.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/mongo-java-driver-2.14.0.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/mongodb-driver-3.2.2.jar"/>
-	<classpathentry kind="lib" path="WEB-INF/lib/poi-3.11.jar"/>
-	<classpathentry kind="lib" path="WEB-INF/lib/poi-ooxml-3.9.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/jcommon-1.0.0.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/jfreechart-1.0.0.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/mail-1.4.7.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/easy-excel.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/spring-core-4.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/poi-3.13.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/poi-ooxml-3.13.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/poi-ooxml-schemas-3.13.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
