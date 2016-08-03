@@ -28,6 +28,7 @@
 	<classpathentry kind="lib" path="WEB-INF/lib/poi-3.13.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/poi-ooxml-3.13.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/poi-ooxml-schemas-3.13.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/netty-3.2.5.Final.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
