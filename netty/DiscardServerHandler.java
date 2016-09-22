@@ -1,5 +1,8 @@
 package netty;
 
+import java.nio.charset.Charset;
+
+import org.jboss.netty.buffer.ChannelBuffer;
 import org.jboss.netty.channel.Channel;
 import org.jboss.netty.channel.ChannelHandlerContext;
 import org.jboss.netty.channel.ChannelStateEvent;
@@ -21,6 +24,14 @@ public class DiscardServerHandler extends SimpleChannelUpstreamHandler {
 	@Override
 	public void messageReceived(ChannelHandlerContext ctx, MessageEvent e) {
 		System.out.println("服务器接收：" + e.getMessage());
+
+	/*	ChannelBuffer buffer = (ChannelBuffer) e.getMessage(); // 五位读取 
+		while(buffer.readableBytes()>= 5) {
+			ChannelBuffer tempBuffer = buffer.readBytes(5);
+			System.out.println(tempBuffer.toString(Charset.defaultCharset()));
+		}
+		// 读取剩下的信息
+		System.out.println(buffer.toString(Charset.defaultCharset()));*/
 		e.getChannel().write("ok");
 	}
 

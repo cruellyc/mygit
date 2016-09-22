@@ -2,6 +2,8 @@ package netty;
 
 import java.util.Scanner;
 
+import org.jboss.netty.buffer.ChannelBuffer;
+import org.jboss.netty.buffer.ChannelBuffers;
 import org.jboss.netty.channel.ChannelHandlerContext;
 import org.jboss.netty.channel.ChannelStateEvent;
 import org.jboss.netty.channel.ExceptionEvent;
@@ -21,7 +23,25 @@ public class TimeClientHandler extends SimpleChannelUpstreamHandler {
 		@SuppressWarnings("resource")
 		Scanner in=new Scanner(System.in);
 		String input=in.nextLine();
-		e.getChannel().write(input);
+		e.getChannel().write(tranStr2Buffer("123"));
+		e.getChannel().write(tranStr2Buffer(input));
+		e.getChannel().write(tranStr2Buffer("456"));
+		//sendMessageByFrame(e);
+	}
+
+	private void sendMessageByFrame(ChannelStateEvent e) {
+		String msgOne = "Hello, ";
+		String msgTwo = "I'm ";
+		String msgThree = "client.";
+		e.getChannel().write(tranStr2Buffer(msgOne));
+		e.getChannel().write(tranStr2Buffer(msgTwo));
+		e.getChannel().write(tranStr2Buffer(msgThree));
+	}
+
+	private ChannelBuffer tranStr2Buffer(String str) {
+		ChannelBuffer buffer = ChannelBuffers.buffer(str.length());
+		buffer.writeBytes(str.getBytes());
+		return buffer;
 	}
 
 	@Override

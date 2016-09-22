@@ -36,6 +36,6 @@ public class DiscardServer {
 		bootstrap.setOption("child.tcpNoDelay", true);
 		bootstrap.setOption("child.keepAlive", true);
 		// 开放8000端口供客户端访问。
-		bootstrap.bind(new InetSocketAddress(8080));
+		bootstrap.bind(new InetSocketAddress(8000));
 	}
 }
